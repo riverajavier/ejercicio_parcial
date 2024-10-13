@@ -1,0 +1,104 @@
+<!--Contenedores:
+
+p-8 bg-gray-50 min-h-screen: Agrega padding alrededor de todo y establece un fondo claro para el contenedor.
+bg-white shadow rounded-lg p-6: Estilos para cada sección de los contadores, con fondo blanco, sombras y bordes redondeados.
+Texto:
+
+text-4xl font-extrabold: Hace que el título sea grande y con una fuente muy destacada.
+text-2xl font-bold: Un título más pequeño para las secciones de cada contador.
+text-lg font-medium: Estilo más elegante para las etiquetas del contador y el cuadrado.
+Botones:
+
+bg-blue-500 text-white font-semibold rounded-lg shadow-md: Aplica un color de fondo azul, texto blanco y un diseño más moderno al botón.
+hover:bg-blue-700 transition: Añade un efecto de transición para cambiar el color cuando pasas el mouse por encima. -->
+
+<!--estilos en tailwind
+<!--bg-blue-500     Azul (tono medio) -->
+<!--bg-red-500      Rojo (tono medio) 
+<!--bg-green-500    Verde (tono medio) -->
+<!--bg-yellow-500   Amarillo (tono medio) -->
+<!--bg-gray-500     Gris (tono medio) -->
+<!--bg-purple-500   Púrpura (tono medio) -->
+<!--bg-pink-500     Rosa (tono medio) -->
+
+<!--Lo mismo se aplica para los otros colores, solo cambias blue por otro nombre de color (red, green, yellow, gray, etc.). -->
+
+<!-- bg-blue-50    Azul muy claro -->
+<!-- bg-blue-100   Azul claro -->
+<!-- bg-blue-200   Azul un poco más fuerte -->
+<!-- bg-blue-300   Azul intermedio claro -->
+<!-- bg-blue-400   Azul intermedio -->
+<!-- bg-blue-500   Azul medio (recomendado para fondos de botones) -->
+<!-- bg-blue-600   Azul oscuro (ideal para bordes o texto en fondos claros) -->
+<!-- bg-blue-700   Azul más oscuro -->
+<!-- bg-blue-800   Azul casi negro -->
+<!-- bg-blue-900   Azul muy oscuro -->
+
+<!--ejemplos 
+<!--<button class="px-4 py-2 text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-700">
+<!--  +1
+<!--</button>
+<!--
+<!--<button class="px-4 py-2 text-white bg-red-500 rounded-lg shadow-md hover:bg-red-700">
+<!--  -1
+<!--</button>
+<!--
+<!-------------colores de fondo--------------------------------------------
+<!--<div class="p-4 bg-gray-100"> <!-- Fondo gris claro -->
+<!--  Este es un contenedor con fondo gris claro
+<!--</div>
+<!--
+<!--<div class="p-4 bg-yellow-200">
+<!--  Este es un contenedor con fondo amarillo claro
+<!--</div>
+----------------------------------------------------------------------
+Personalizar colores en tailwind.config.js (Opcional)
+Si quieres agregar tus propios colores o modificar los existentes, puedes personalizar los colores en el archivo tailwind.config.js de tu proyecto:
+
+<!--module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        primary: '#1DA1F2',  // Personalizar un color
+        secondary: '#14171A',
+      },
+    },
+  },
+}
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- <button class="text-white bg-primary">Botón personalizado</button> -->
+<!-- ----------------------------------------------------------------------- -->
+<!-- ----------------------colores en el texto------------------------------ -->
+
+<!--<p class="text-blue-500">Texto azul medio</p>-->
+<!--<p class="text-blue-700">Texto azul oscuro</p>-->
+
+<!--<p class="text-red-500">Texto rojo medio</p>-->
+<!--<p class="text-red-700">Texto rojo oscuro</p>-->
+
+<!--<p class="text-green-500">Texto verde medio</p>-->
+<!--<p class="text-green-700">Texto verde oscuro</p>-->
+
+<!--<p class="text-gray-500">Texto gris medio</p>-->
+<!--<p class="text-gray-700">Texto gris oscuro</p>-->
+
+<!--<p class="text-yellow-500">Texto amarillo medio</p>-->
+<!--<p class="text-yellow-700">Texto amarillo oscuro</p>-->
+
+<!--<p class="text-purple-500">Texto púrpura medio</p>-->
+<!--<p class="text-purple-700">Texto púrpura oscuro</p>-->
+<!--Escala de tonos para el texto:-->
+
+<!--Puedes ajustar la claridad del color con valores de 50 (más claro) a 900 (más oscuro). Aquí un ejemplo para el color azul-->  
+
+<!--<p class="text-blue-50">Texto azul muy claro</p>-->
+<!--<p class="text-blue-100">Texto azul claro</p>-->
+<!--<p class="text-blue-200">Texto azul un poco más fuerte</p>-->
+<!--<p class="text-blue-300">Texto azul intermedio claro</p>-->
+<!--<p class="text-blue-400">Texto azul intermedio</p>-->
+<!--<p class="text-blue-500">Texto azul medio</p>-->
+<!--<p class="text-blue-600">Texto azul oscuro</p>-->
+<!--<p class="text-blue-700">Texto azul más oscuro</p>-->
+<!--<p class="text-blue-800">Texto azul casi negro</p>-->
+<!--<p class="text-blue-900">Texto azul muy oscuro</p>-->
